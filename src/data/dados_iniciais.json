@@ -1,0 +1,177 @@
+{
+  "categorias": [
+    {
+      "titulo": "Meus Videos",
+      "link": "https://www.alura.com.br/formacao-front-end",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Formação Front End Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      },
+      "videos": [
+        {
+          "titulo": "Fazendo requisições para a Api pokeapi.co com Jquery ",
+          "url": "https://www.youtube.com/watch?v=M-B8Gfu2h-A&t=2s"
+        },
+        {
+          "titulo": "Como fazer requisição em uma API",
+          "url": "https://www.youtube.com/watch?v=gj--Ybs43FI&t=49s"
+        },
+        {
+          "titulo": "Requisições com Fetch",
+          "url": "https://www.youtube.com/watch?v=CzyusOT_CwY"
+        },
+        {
+          "titulo": "Resultado de uma busca com Fetch",
+          "url": "https://www.youtube.com/watch?v=3GLiqhbarrw"
+        },
+        {
+          "titulo": "Ordenando resultado de uma busca com fetch",
+          "url": "https://www.youtube.com/watch?v=HCd59Zf8akQ"
+        }        
+      ]
+    },
+    {
+      "titulo": "Animes",
+      "cor": "#00C86F",
+      "videos": [
+        {
+          "titulo": "Rock Lee X Gaara",
+          "url": "https://www.youtube.com/watch?v=E0xsfehI0hI"
+        },
+        {
+          "titulo": "Street Fighter 2",
+          "url": "https://www.youtube.com/watch?v=y55bVjNFPhs"
+        },
+        {
+          "titulo": "Cavaleiros do Zodíaco A Lenda do Santuário",
+          "url": "https://www.youtube.com/watch?v=BLwi7jR41bc"
+        },
+        {
+          "titulo": "Hunter X Hunter",
+          "url": "https://www.youtube.com/watch?v=faqmNf_fZlE"
+        },
+        {
+          "titulo": "One Punch",
+          "url": "https://www.youtube.com/watch?v=atxYe-nOa9w"
+        }
+      ]
+    },
+    {
+      "titulo": "Filmes",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "KungFusão",
+          "url": "https://www.youtube.com/watch?v=-m3IB7N_PRk"
+        },
+        {
+          "titulo": "O caminho do guerreiro",
+          "url": "https://www.youtube.com/watch?v=OochH-1Y95M"
+        },
+        {
+          "titulo": "Um milhão de maneiras de pegar na pistola",
+          "url": "https://www.youtube.com/watch?v=2ABgaemwUSs"
+        },
+        {
+          "titulo": "Os Últimos Foras da Lei",
+          "url": "https://www.youtube.com/watch?v=5Wv4VuOVyBg"
+        }
+      ]
+    },
+    {
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação de Jogos",
+        "url": "https://www.alura.com.br/formacao-jogos-unity"
+      },
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Final Fantasy 8",
+          "url": "https://www.youtube.com/watch?v=XyBensMp_MA"
+        },
+        {
+          "titulo": "Resident Evil 3 Remake",
+          "url": "https://www.youtube.com/watch?v=EyCZP1wDxEM"
+        },
+        {
+          "titulo": "Tenchu 2",
+          "url": "https://www.youtube.com/watch?v=HiP3WujoXrE"
+        },
+        {
+          "titulo": "Xenogears",
+          "url": "https://www.youtube.com/watch?v=8RLf0O8eofU"
+        },
+        {
+          "titulo": "The King of Fighters 98",
+          "url": "https://www.youtube.com/watch?v=be3yCX_CUhM"
+        }
+      ]
+    },
+    {
+      "titulo": "Data Science e Inteligência Artificial",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "Cursos de Data Science",
+        "url": "https://www.alura.com.br/formacao-data-science"
+      },
+      "videos": [
+        {
+          "titulo": "Teste de Turing",
+          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+        },
+        {
+          "titulo": "O que é Data Science?",
+          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+        },
+        {
+          "titulo": "Melhor forma de aprender Python",
+          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+        },
+        {
+          "titulo": "Como ingressar no mercado de Data Science?",
+          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        }
+      ]
+    },
+    {
+      "titulo": "Aprendendo a aprender tecnologia",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Curso sobre aprendizado na Alura",
+        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
+      },
+      "videos": [
+        {
+          "titulo": "Como estudar melhor?",
+          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+        },
+        {
+          "titulo": "Faculdade",
+          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+        },
+        {
+          "titulo": "Frameworks",
+          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+        },
+        {
+          "titulo": "A mágica do Aprendizado",
+          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+        },
+        {
+          "titulo": "Como aprender a programar?",
+          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    }
+  ]
+}
