@@ -1,20 +1,22 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
+import Button from '../Button'
 import Logo from '../../assets/img/Logo.png'
-import {LogoImage, MenuWrapper, ButtonLink} from './style.js'
-// import './Menu.css'
+import {LogoImage, MenuWrapper} from './style.js'
+import './Menu.css'
 // import ButtonLink from './components/ButtonLink'
 
 function Menu () {
     return (
         <MenuWrapper className="Menu">
-            <a href="/">
+            <Link to="/">
                 <LogoImage src={Logo} alt="Logo da kelloflix"/>
-            </a>
+            </Link>
         
-            <ButtonLink as="a" href="/">
+            <Button as={Link} to="/cadastro/video">
                 Novo vídeo
-            </ButtonLink>
+            </Button>
             
         </MenuWrapper>
     )
