@@ -7,14 +7,8 @@ import './index.css';
 import Home from './pages/home';
 import CadastroVideo from './pages/cadastro/video';
 import CadastroCategoria from './pages/cadastro/categoria';
+import Pagina404 from './pages/pagina404';
 
-const Pagina404 = () => {
-  return (
-    <div>
-      Página 404
-    </div>
-  );
-} 
 
 ReactDOM.render(
   <BrowserRouter>
