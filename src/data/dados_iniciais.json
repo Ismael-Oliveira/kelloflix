@@ -10,6 +10,10 @@
       },
       "videos": [
         {
+          "titulo": "Torne-se um General e lidere seu time para a vitória em qualquer projeto Web. ",
+          "url": "https://www.youtube.com/watch?v=XJ3sr259SDI&feature=emb_logo"
+        },
+        {
           "titulo": "Fazendo requisições para a Api pokeapi.co com Jquery ",
           "url": "https://www.youtube.com/watch?v=M-B8Gfu2h-A&t=2s"
         },
