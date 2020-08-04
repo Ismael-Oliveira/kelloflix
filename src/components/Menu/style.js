@@ -26,7 +26,7 @@ export const MenuWrapper = styled.nav`
     padding-right: 5%;
   
     /* background: var(--black); */
-    border-bottom: 2px solid var(--primary);
+    border-bottom: 2px solid var(--greenLighter);
 
     @media (max-width: 800px) {
       justify-content: center;

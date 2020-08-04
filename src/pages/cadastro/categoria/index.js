@@ -4,34 +4,37 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormFields from '../../../components/FormFields';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
   };
 
+  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(valoresIniciais);
+  // const [values, setValues] = useState(valoresIniciais);
 
-  function setValue(chave, valor) {
-    setValues({
-      ...values,
-      [chave]: valor,
-    });
-  }
+  // function setValue(chave, valor) {
+  //   setValues({
+  //     ...values,
+  //     [chave]: valor,
+  //   });
+  // }
 
-  function handleChange(evt) {
-    setValue(
-      evt.target.getAttribute('name'),
-      evt.target.value,
-    );
-  }
+  // function handleChange(evt) {
+  //   setValue(
+  //     evt.target.getAttribute('name'),
+  //     evt.target.value,
+  //   );
+  // }
 
   useEffect(() => {
-    // const URL_TOP = 'http://localhost:8080/categorias';
-    const URL_TOP = 'https://kelloflix.herokuapp.com/categorias';
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias' : 'https://kelloflix.herokuapp.com/categorias';
     fetch(URL_TOP)
       .then(async (resp) => {
         const resposta = await resp.json();
@@ -44,13 +47,13 @@ function CadastroCategoria() {
     //     [...categorias,
     //       {
     //         id: 1,
-    //         nome: 'Front End',
+    //         title: 'Front End',
     //         descricao: 'Json server do caramba',
     //         cor: '#6bd1ff',
     //       },
     //       {
     //         id: 2,
-    //         nome: 'Back End',
+    //         title: 'Back End',
     //         descricao: 'Mais um categoria do caramba',
     //         cor: '#6bd1ff',
     //       }],
@@ -62,7 +65,7 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>
         Nova Categoria:
-        {values.nome}
+        {values.titulo}
       </h1>
       <form onSubmit={
           function handleSubmit(evt) {
@@ -72,15 +75,15 @@ function CadastroCategoria() {
               values,
             ]);
 
-            setValues(valoresIniciais);
+            clearForm(valoresIniciais);
           }
         }
       >
         <FormFields
-          label="Nome da categoria"
+          label="Título da categoria"
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
@@ -113,8 +116,8 @@ function CadastroCategoria() {
       )}
       <ul>
         {categorias.map((categoria) => (
-          <li key={`${categoria.nome}`}>
-            {categoria.nome}
+          <li key={`${categoria.titulo}${Math.random() * 1000}`}>
+            {categoria.titulo}
           </li>
         ))}
       </ul>

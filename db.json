@@ -2,15 +2,209 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "Front End",
-      "descricao": "Json server do caramba",
-      "cor": "#6bd1ff"
+      "titulo": "Nível 1 Soldado",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Formação HTML5",
+        "url": "https://www.youtube.com/playlist?list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o"
+      }
     },
     {
       "id": 2,
-      "nome": "Back End",
-      "descricao": "Mais um categoria do caramba",
-      "cor": "#6bd1ff"
+      "titulo": "Nível 2 Sargento",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Pare de chutar CSS",
+        "url": "https://www.youtube.com/playlist?list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Nível 3 Major",
+      "cor": "orange",
+      "link_extra": {
+        "text": "Flappy Bird",
+        "url": "https://www.youtube.com/playlist?list=PLTcmLKdIkOWmeNferJ292VYKBXydGeDej"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Nível 4 General",
+      "cor": "red",
+      "link_extra": {
+        "text": "Formação Front End na Alura",
+        "url": "https://www.alura.com.br/cursos-online-front-end"
+      }
     }
-   ]
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Passe por todos o níveis, torne-se um General e lidere seu time para a vitória em qualquer projeto Web. ",
+      "url": "https://www.youtube.com/watch?v=XJ3sr259SDI&feature=emb_logo"
+    },
+    {
+      "titulo": "Aula 1",
+      "url": "https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=1",
+      "categoriaId": 1,
+      "id": 25
+    },
+    {
+      "titulo": "Aula 2",
+      "url": "https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=2",
+      "categoriaId": 1,
+      "id": 26
+    },
+    {
+      "titulo": "Aula 3",
+      "url": "https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=3",
+      "categoriaId": 1,
+      "id": 27
+    },
+    {
+      "titulo": "Aula 4",
+      "url": "https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=4",
+      "categoriaId": 1,
+      "id": 28
+    },
+    {
+      "titulo": "Aula 5",
+      "url": "https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=5",
+      "categoriaId": 1,
+      "id": 29
+    },
+    {
+      "titulo": "Aula 6",
+      "url": "https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=6",
+      "categoriaId": 1,
+      "id": 30
+    },
+    {
+      "titulo": "Aula 7",
+      "url": "https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=7",
+      "categoriaId": 1,
+      "id": 31
+    },
+    {
+      "titulo": "Aula 8",
+      "url": "https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=8",
+      "categoriaId": 1,
+      "id": 32
+    },
+    {
+      "titulo": "Aula 9",
+      "url": "https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=9",
+      "categoriaId": 1,
+      "id": 33
+    },
+    {
+      "titulo": "Aula 10",
+      "url": "https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&index=10",
+      "categoriaId": 1,
+      "id": 34
+    },
+    {
+      "titulo": "Aula 1",
+      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE&list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x&index=1",
+      "categoriaId": 2,
+      "id": 35
+    },
+    {
+      "titulo": "Aula 2",
+      "url": "https://www.youtube.com/watch?v=HWfhwokS_qg&list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x&index=2",
+      "categoriaId": 2,
+      "id": 36
+    },
+    {
+      "titulo": "Aula 3",
+      "url": "https://www.youtube.com/watch?v=Yj9-N9BEVeM&list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x&index=3",
+      "categoriaId": 2,
+      "id": 37
+    },
+    {
+      "titulo": "Aula 4",
+      "url": "https://www.youtube.com/watch?v=E1tR7sYMEN0&list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x&index=4",
+      "categoriaId": 2,
+      "id": 38
+    },
+    {
+      "titulo": "Aula 5",
+      "url": "https://www.youtube.com/watch?v=pMlxfhahXW4&list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x&index=5",
+      "categoriaId": 2,
+      "id": 39
+    },
+    {
+      "titulo": "Aula 6",
+      "url": "https://www.youtube.com/watch?v=f8H-wstL0nU&list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x&index=6",
+      "categoriaId": 2,
+      "id": 40
+    },
+    {
+      "titulo": "Aula 7",
+      "url": "https://www.youtube.com/watch?v=e41QFmkqaEY&list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x&index=7",
+      "categoriaId": 2,
+      "id": 41
+    },
+    {
+      "titulo": "Aula 8",
+      "url": "https://www.youtube.com/watch?v=ESMLqFWIEDQ&list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x&index=8",
+      "categoriaId": 2,
+      "id": 42
+    },
+    {
+      "titulo": "Aula 9",
+      "url": "https://www.youtube.com/watch?v=kU8oIbe5hLs&list=PLirko8T4cEmx5eBb1-9j6T6Gl4aBtZ_5x&index=9",
+      "categoriaId": 2,
+      "id": 43
+    },
+    {
+      "titulo": "Aula 1",
+      "url": "https://www.youtube.com/watch?v=jOAU81jdi-c&list=PLTcmLKdIkOWmeNferJ292VYKBXydGeDej&index=1",
+      "categoriaId": 3,
+      "id": 44
+    },
+    {
+      "titulo": "Aula 2",
+      "url": "https://www.youtube.com/watch?v=6ubysIIjarI&list=PLTcmLKdIkOWmeNferJ292VYKBXydGeDej&index=2",
+      "categoriaId": 3,
+      "id": 45
+    },
+    {
+      "titulo": "Aula 3",
+      "url": "https://www.youtube.com/watch?v=ddG60OX7_8A&list=PLTcmLKdIkOWmeNferJ292VYKBXydGeDej&index=3",
+      "categoriaId": 3,
+      "id": 46
+    },
+    {
+      "titulo": "Aula 4",
+      "url": "https://www.youtube.com/watch?v=9BZspL5MRvQ&list=PLTcmLKdIkOWmeNferJ292VYKBXydGeDej&index=4",
+      "categoriaId": 3,
+      "id": 47
+    },
+    {
+      "titulo": "Aula 5",
+      "url": "https://www.youtube.com/watch?v=BJSFJNlRpp0&list=PLTcmLKdIkOWmeNferJ292VYKBXydGeDej&index=5",
+      "categoriaId": 3,
+      "id": 48
+    },
+    {
+      "titulo": "Iniciante em Programação",
+      "url": "https://youtu.be/Oc8B7qlRFtw",
+      "categoriaId": 4,
+      "id": 49
+    },
+    {
+      "titulo": "Do zero a uma carreira de sucesso no mercado web!",
+      "url": "https://youtu.be/2lJC3fOs5gk",
+      "categoriaId": 4,
+      "id": 50
+    },
+    {
+      "titulo": "Data Science",
+      "url": "https://youtu.be/UutE1pQzA6Y",
+      "categoriaId": 4,
+      "id": 51
+    }
+  ]
 }
